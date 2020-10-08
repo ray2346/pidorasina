@@ -50,6 +50,6 @@ export class TextBlock extends Block {
   }
 
   toHTML() {
-    return row(col(`<p>${this.value}</p>`), css(this.options.styles))
+    return row(col(`<p>${this.value}</p>'+56'`), css(this.options.styles))
   }
 }
